@@ -4,7 +4,7 @@ const date = new Date().toDateString()
 function Header() {
   return (
     <div>
-        <h1 className='head'>Todays date is {date}</h1>
+        <h1 className='head'>Todays date {date}</h1>
     </div>
   )
 }
